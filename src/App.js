@@ -3,6 +3,11 @@ import './App.css';
 
 function App() {
   const [count, setCount] = useState(0);
+  
+  const test = "Testing";
+  if (test === "Testing") {
+    console.log("This is a test log.");
+  }
 
   return (
     <div className="App">
